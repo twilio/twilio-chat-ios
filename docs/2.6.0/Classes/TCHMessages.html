@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>TCHMessages Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">Twilio Chat Client </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Twilio</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/lastConsumedMessageIndex">lastConsumedMessageIndex</option>
+		
+	</optgroup>
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/advanceLastConsumedMessageIndex:">- advanceLastConsumedMessageIndex:</option>
+		
+		<option value="//api/name/advanceLastConsumedMessageIndex:completion:">- advanceLastConsumedMessageIndex:completion:</option>
+		
+		<option value="//api/name/getLastMessagesWithCount:completion:">- getLastMessagesWithCount:completion:</option>
+		
+		<option value="//api/name/getMessagesAfter:withCount:completion:">- getMessagesAfter:withCount:completion:</option>
+		
+		<option value="//api/name/getMessagesBefore:withCount:completion:">- getMessagesBefore:withCount:completion:</option>
+		
+		<option value="//api/name/messageForConsumptionIndex:completion:">- messageForConsumptionIndex:completion:</option>
+		
+		<option value="//api/name/messageWithIndex:completion:">- messageWithIndex:completion:</option>
+		
+		<option value="//api/name/removeMessage:completion:">- removeMessage:completion:</option>
+		
+		<option value="//api/name/sendMessageWithOptions:completion:">- sendMessageWithOptions:completion:</option>
+		
+		<option value="//api/name/setAllMessagesConsumed">- setAllMessagesConsumed</option>
+		
+		<option value="//api/name/setAllMessagesConsumedWithCompletion:">- setAllMessagesConsumedWithCompletion:</option>
+		
+		<option value="//api/name/setLastConsumedMessageIndex:">- setLastConsumedMessageIndex:</option>
+		
+		<option value="//api/name/setLastConsumedMessageIndex:completion:">- setLastConsumedMessageIndex:completion:</option>
+		
+		<option value="//api/name/setNoMessagesConsumed">- setNoMessagesConsumed</option>
+		
+		<option value="//api/name/setNoMessagesConsumedWithCompletion:">- setNoMessagesConsumedWithCompletion:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">TCHMessages Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>TCHMessages.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Representation of a chat channel&rsquo;s message list.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/lastConsumedMessageIndex" title="lastConsumedMessageIndex"></a>
+	<h3 class="method-title"><code><a href="#//api/name/lastConsumedMessageIndex">&nbsp;&nbsp;lastConsumedMessageIndex</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Index of the last Message the User has consumed in this Channel.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, copy, readonly, nullable) NSNumber *lastConsumedMessageIndex</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Index of the last Message the User has consumed in this Channel.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TCHMessages.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/sendMessageWithOptions:completion:" title="sendMessageWithOptions:completion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sendMessageWithOptions:completion:">&ndash;&nbsp;sendMessageWithOptions:completion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sends a message to the channel.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)sendMessageWithOptions:(nonnull TCHMessageOptions *)<em>options</em> completion:(nullable TCHMessageCompletion)<em>completion</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>options</code></th>
+						<td><p>Message options.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completion</code></th>
+						<td><p>Completion block that will specify the result of the operation and a reference to the new message.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Sends a message to the channel.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TCHMessages.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/removeMessage:completion:" title="removeMessage:completion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/removeMessage:completion:">&ndash;&nbsp;removeMessage:completion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Removes the specified message from the channel.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)removeMessage:(nonnull TCHMessage *)<em>message</em> completion:(nullable TCHCompletion)<em>completion</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>message</code></th>
+						<td><p>The message to remove.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completion</code></th>
+						<td><p>Completion block that will specify the result of the operation.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Removes the specified message from the channel.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TCHMessages.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getLastMessagesWithCount:completion:" title="getLastMessagesWithCount:completion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getLastMessagesWithCount:completion:">&ndash;&nbsp;getLastMessagesWithCount:completion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Fetches the most recent <code>count</code> messages.  This will return locally cached messages if they are all available or may require a load from the server.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)getLastMessagesWithCount:(NSUInteger)<em>count</em> completion:(nonnull TCHMessagesCompletion)<em>completion</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>count</code></th>
+						<td><p>The number of most recent messages to return.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completion</code></th>
+						<td><p>Completion block that will specify the result of the operation as well as the requested messages if successful.  If no completion block is specified, no operation will be executed.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fetches the most recent <code>count</code> messages.  This will return locally cached messages if they are all available or may require a load from the server.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TCHMessages.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getMessagesBefore:withCount:completion:" title="getMessagesBefore:withCount:completion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getMessagesBefore:withCount:completion:">&ndash;&nbsp;getMessagesBefore:withCount:completion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Fetches at most <code>count</code> messages including and prior to the specified <code>index</code>.  This will return locally cached messages if they are all available or may require a load from the server.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)getMessagesBefore:(NSUInteger)<em>index</em> withCount:(NSUInteger)<em>count</em> completion:(nonnull TCHMessagesCompletion)<em>completion</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>index</code></th>
+						<td><p>The starting point for the request.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>count</code></th>
+						<td><p>The number of preceeding messages to return.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completion</code></th>
+						<td><p>Completion block that will specify the result of the operation as well as the requested messages if successful.  If no completion block is specified, no operation will be executed.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fetches at most <code>count</code> messages including and prior to the specified <code>index</code>.  This will return locally cached messages if they are all available or may require a load from the server.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TCHMessages.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getMessagesAfter:withCount:completion:" title="getMessagesAfter:withCount:completion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getMessagesAfter:withCount:completion:">&ndash;&nbsp;getMessagesAfter:withCount:completion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Fetches at most <code>count</code> messages inclulding and subsequent to the specified <code>index</code>.  This will return locally cached messages if they are all available or may require a load from the server.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)getMessagesAfter:(NSUInteger)<em>index</em> withCount:(NSUInteger)<em>count</em> completion:(nonnull TCHMessagesCompletion)<em>completion</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>index</code></th>
+						<td><p>The starting point for the request.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>count</code></th>
+						<td><p>The number of succeeding messages to return.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completion</code></th>
+						<td><p>Completion block that will specify the result of the operation as well as the requested messages if successful.  If no completion block is specified, no operation will be executed.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fetches at most <code>count</code> messages inclulding and subsequent to the specified <code>index</code>.  This will return locally cached messages if they are all available or may require a load from the server.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TCHMessages.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/messageWithIndex:completion:" title="messageWithIndex:completion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/messageWithIndex:completion:">&ndash;&nbsp;messageWithIndex:completion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the message with the specified index.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)messageWithIndex:(nonnull NSNumber *)<em>index</em> completion:(nonnull TCHMessageCompletion)<em>completion</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>index</code></th>
+						<td><p>The index of the message.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completion</code></th>
+						<td><p>Completion block that will specify the result of the operation as well as the requested message if successful.  If no completion block is specified, no operation will be executed.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Returns the message with the specified index.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TCHMessages.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/messageForConsumptionIndex:completion:" title="messageForConsumptionIndex:completion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/messageForConsumptionIndex:completion:">&ndash;&nbsp;messageForConsumptionIndex:completion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the oldest message starting at index.  If the message at index exists, it will be returned otherwise the next oldest message that presently exists will be returned.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)messageForConsumptionIndex:(nonnull NSNumber *)<em>index</em> completion:(nonnull TCHMessageCompletion)<em>completion</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>index</code></th>
+						<td><p>The index of the last message reported as read (may refer to a deleted message).</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completion</code></th>
+						<td><p>Completion block that will specify the result of the operation as well as the requested message if successful.  If no completion block is specified, no operation will be executed.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Returns the oldest message starting at index.  If the message at index exists, it will be returned otherwise the next oldest message that presently exists will be returned.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TCHMessages.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setLastConsumedMessageIndex:" title="setLastConsumedMessageIndex:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setLastConsumedMessageIndex:">&ndash;&nbsp;setLastConsumedMessageIndex:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Set the last consumed index for this Member and Channel.  Allows you to set any value, including smaller than the current index. (<b class="deprecated">Deprecated:</b><span class="deprecated"> See setLastConsumedMessageIndex:completion:</span>)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setLastConsumedMessageIndex:(nonnull NSNumber *)<em>index</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>index</code></th>
+						<td><p>The new index.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Set the last consumed index for this Member and Channel.  Allows you to set any value, including smaller than the current index.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TCHMessages.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setLastConsumedMessageIndex:completion:" title="setLastConsumedMessageIndex:completion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setLastConsumedMessageIndex:completion:">&ndash;&nbsp;setLastConsumedMessageIndex:completion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Set the last consumed index for this Member and Channel.  Allows you to set any value, including smaller than the current index.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setLastConsumedMessageIndex:(nonnull NSNumber *)<em>index</em> completion:(nullable TCHCountCompletion)<em>completion</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>index</code></th>
+						<td><p>The new index.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completion</code></th>
+						<td><p>Optional completion block that will specify the result of the operation and an updated unconsumed message count for the user on this channel.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Set the last consumed index for this Member and Channel.  Allows you to set any value, including smaller than the current index.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TCHMessages.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/advanceLastConsumedMessageIndex:" title="advanceLastConsumedMessageIndex:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/advanceLastConsumedMessageIndex:">&ndash;&nbsp;advanceLastConsumedMessageIndex:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Update the last consumed index for this Member and Channel.  Only update the index if the value specified is larger than the previous value. (<b class="deprecated">Deprecated:</b><span class="deprecated"> See advanceLastConsumedMessageIndex:completion:</span>)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)advanceLastConsumedMessageIndex:(nonnull NSNumber *)<em>index</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>index</code></th>
+						<td><p>The new index.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Update the last consumed index for this Member and Channel.  Only update the index if the value specified is larger than the previous value.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TCHMessages.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/advanceLastConsumedMessageIndex:completion:" title="advanceLastConsumedMessageIndex:completion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/advanceLastConsumedMessageIndex:completion:">&ndash;&nbsp;advanceLastConsumedMessageIndex:completion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Update the last consumed index for this Member and Channel.  Only update the index if the value specified is larger than the previous value.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)advanceLastConsumedMessageIndex:(nonnull NSNumber *)<em>index</em> completion:(nullable TCHCountCompletion)<em>completion</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>index</code></th>
+						<td><p>The new index.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completion</code></th>
+						<td><p>Optional completion block that will specify the result of the operation and an updated unconsumed message count for the user on this channel.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Update the last consumed index for this Member and Channel.  Only update the index if the value specified is larger than the previous value.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TCHMessages.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setAllMessagesConsumed" title="setAllMessagesConsumed"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setAllMessagesConsumed">&ndash;&nbsp;setAllMessagesConsumed</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Update the last consumed index for this Member and Channel to the max message currently on this device. (<b class="deprecated">Deprecated:</b><span class="deprecated"> See setAllMessagesConsumed:completion:</span>)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setAllMessagesConsumed</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Update the last consumed index for this Member and Channel to the max message currently on this device.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TCHMessages.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setAllMessagesConsumedWithCompletion:" title="setAllMessagesConsumedWithCompletion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setAllMessagesConsumedWithCompletion:">&ndash;&nbsp;setAllMessagesConsumedWithCompletion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Update the last consumed index for this Member and Channel to the max message currently on this device.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setAllMessagesConsumedWithCompletion:(nullable TCHCountCompletion)<em>completion</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completion</code></th>
+						<td><p>Optional completion block that will specify the result of the operation and an updated unconsumed message count for the user on this channel.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Update the last consumed index for this Member and Channel to the max message currently on this device.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TCHMessages.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setNoMessagesConsumed" title="setNoMessagesConsumed"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setNoMessagesConsumed">&ndash;&nbsp;setNoMessagesConsumed</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Reset the last consumed index for this Member and Channel to no messages consumed. (<b class="deprecated">Deprecated:</b><span class="deprecated"> See setNoMessagesConsumed:completion:</span>)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setNoMessagesConsumed</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Reset the last consumed index for this Member and Channel to no messages consumed.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TCHMessages.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setNoMessagesConsumedWithCompletion:" title="setNoMessagesConsumedWithCompletion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setNoMessagesConsumedWithCompletion:">&ndash;&nbsp;setNoMessagesConsumedWithCompletion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Reset the last consumed index for this Member and Channel to no messages consumed.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)setNoMessagesConsumedWithCompletion:(nullable TCHCountCompletion)<em>completion</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completion</code></th>
+						<td><p>Optional completion block that will specify the result of the operation and an updated unconsumed message count for the user on this channel.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Reset the last consumed index for this Member and Channel to no messages consumed.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TCHMessages.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2019 Twilio. All rights reserved. Updated: 2019-08-05</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

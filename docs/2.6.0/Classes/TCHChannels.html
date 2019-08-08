@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>TCHChannels Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">Twilio Chat Client </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Twilio</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/channelWithSidOrUniqueName:completion:">- channelWithSidOrUniqueName:completion:</option>
+		
+		<option value="//api/name/createChannelWithOptions:completion:">- createChannelWithOptions:completion:</option>
+		
+		<option value="//api/name/publicChannelDescriptorsWithCompletion:">- publicChannelDescriptorsWithCompletion:</option>
+		
+		<option value="//api/name/subscribedChannels">- subscribedChannels</option>
+		
+		<option value="//api/name/subscribedChannelsSortedBy:order:">- subscribedChannelsSortedBy:order:</option>
+		
+		<option value="//api/name/userChannelDescriptorsWithCompletion:">- userChannelDescriptorsWithCompletion:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">TCHChannels Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>TCHChannels.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Representation of a chat channel list.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/subscribedChannels" title="subscribedChannels"></a>
+	<h3 class="method-title"><code><a href="#//api/name/subscribedChannels">&ndash;&nbsp;subscribedChannels</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Retrieve a list of channels currently subscribed to on the client.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nonnull NSArray&lt;TCHChannel*&gt; *)subscribedChannels</code></div>
+
+		    
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>An array of all of the client&rsquo;s currently subscribed channels.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Retrieve a list of channels currently subscribed to on the client.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TCHChannels.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/subscribedChannelsSortedBy:order:" title="subscribedChannelsSortedBy:order:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/subscribedChannelsSortedBy:order:">&ndash;&nbsp;subscribedChannelsSortedBy:order:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Retrieve a sorted list of channels currently subscribed to on the client.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (nonnull NSArray&lt;TCHChannel*&gt; *)subscribedChannelsSortedBy:(TCHChannelSortingCriteria)<em>criteria</em> order:(TCHChannelSortingOrder)<em>order</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>criteria</code></th>
+						<td><p>The <a href="../Constants/TCHChannelSortingCriteria.html">TCHChannelSortingCriteria</a> to order the channels by.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>order</code></th>
+						<td><p>The <a href="../Constants/TCHChannelSortingOrder.html">TCHChannelSortingOrder</a> direction of the sort, either ascending or descending.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>An array of all of the client&rsquo;s currently subscribed channels.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Retrieve a sorted list of channels currently subscribed to on the client.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TCHChannels.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/userChannelDescriptorsWithCompletion:" title="userChannelDescriptorsWithCompletion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/userChannelDescriptorsWithCompletion:">&ndash;&nbsp;userChannelDescriptorsWithCompletion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Retrieve a list of channel descriptors the user has a participation state on, for example invited, joined, creator.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)userChannelDescriptorsWithCompletion:(nonnull TCHChannelDescriptorPaginatorCompletion)<em>completion</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completion</code></th>
+						<td><p>Completion block that will specify the result of the operation and a reference to the first page of user channel descriptors.  If no completion block is specified, no operation will be executed.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Retrieve a list of channel descriptors the user has a participation state on, for example invited, joined, creator.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TCHChannels.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/publicChannelDescriptorsWithCompletion:" title="publicChannelDescriptorsWithCompletion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/publicChannelDescriptorsWithCompletion:">&ndash;&nbsp;publicChannelDescriptorsWithCompletion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Retrieve a list of channel descriptors for publicly visible channels.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)publicChannelDescriptorsWithCompletion:(nonnull TCHChannelDescriptorPaginatorCompletion)<em>completion</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completion</code></th>
+						<td><p>Completion block that will specify the result of the operation and a reference to the first page of public channel descriptors.  If no completion block is specified, no operation will be executed.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Retrieve a list of channel descriptors for publicly visible channels.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TCHChannels.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/createChannelWithOptions:completion:" title="createChannelWithOptions:completion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/createChannelWithOptions:completion:">&ndash;&nbsp;createChannelWithOptions:completion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Create a new channel with the specified options.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)createChannelWithOptions:(nullable NSDictionary&lt;NSString*,id&gt; *)<em>options</em> completion:(nullable TCHChannelCompletion)<em>completion</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>options</code></th>
+						<td><p>Channel options for new channel whose keys are TCHChannelOption* constants. (optional - may be empty or nil)</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completion</code></th>
+						<td><p>Completion block that will specify the result of the operation and a reference to the new channel.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Create a new channel with the specified options.</p><p>TCHChannelOptionFriendlyName - String friendly name (optional)</p><p>TCHChannelOptionUniqueName - String unique name (optional)</p><p>TCHChannelOptionType - Expected values are @(TCHChannelTypePublic) or @(TCHChannelTypePrivate) (optional)</p><p>TCHChannelOptionAttributes - Expected value is an NSDictionary&lt;NSString<em>,id> </em>, see also <a href="../Classes/TCHChannel.html">TCHChannel</a> setAttributes:completion: (optional)</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TCHChannels.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/channelWithSidOrUniqueName:completion:" title="channelWithSidOrUniqueName:completion:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/channelWithSidOrUniqueName:completion:">&ndash;&nbsp;channelWithSidOrUniqueName:completion:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Obtains a channel with the specified id or unique name.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)channelWithSidOrUniqueName:(nonnull NSString *)<em>sidOrUniqueName</em> completion:(nonnull TCHChannelCompletion)<em>completion</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>sidOrUniqueName</code></th>
+						<td><p>Identifier or unique name for the channel.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>completion</code></th>
+						<td><p>Completion block that will specify the result of the operation and a reference to the requested channel if it exists.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Obtains a channel with the specified id or unique name.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">TCHChannels.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2019 Twilio. All rights reserved. Updated: 2019-08-05</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>
