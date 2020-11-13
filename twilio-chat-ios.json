@@ -29,5 +29,6 @@
   "3.1.0": "https://github.com/twilio/twilio-chat-ios/releases/download/v3.1.0/TwilioChatClient.framework.zip",
   "3.1.1": "https://github.com/twilio/twilio-chat-ios/releases/download/v3.1.1/TwilioChatClient.framework.zip",
   "4.0.0": "https://github.com/twilio/twilio-chat-ios/releases/download/v4.0.0/TwilioChatClient.framework.zip",
-  "4.0.1": "https://github.com/twilio/twilio-chat-ios/releases/download/v4.0.1/TwilioChatClient.framework.zip"
+  "4.0.1": "https://github.com/twilio/twilio-chat-ios/releases/download/v4.0.1/TwilioChatClient.framework.zip",
+  "4.0.2": "https://github.com/twilio/twilio-chat-ios/releases/download/v4.0.2/TwilioChatClient.framework.zip"
 }
