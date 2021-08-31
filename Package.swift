@@ -14,8 +14,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "TwilioChatClient",
-            url: "https://media.twiliocdn.com/sdk/ios/chat/releases/5.0.0/twilio-chat-ios-5.0.0.zip",
-            checksum: "638a8136b2eb226e43342b30e70bc80c8e5b6f917bc9c86a45c942dbd5d8686b"
+            url: "https://media.twiliocdn.com/sdk/ios/chat/releases/5.0.1/twilio-chat-ios-5.0.1.zip",
+            checksum: "cab46d255fbac00a837da3dd81cd5342b29f0e606fba161142307d7cd79496fa"
         )
     ]
 )
