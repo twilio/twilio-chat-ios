@@ -1,4 +1,4 @@
-# Twilio Programmable Chat for iOS
+# Twilio Programmable Chat for iOS is not supported. Please switch to Twilio Conversations - a compatible successor of Chat.
 
 This repository contains releases for the Twilio Programmable Chat for iOS SDK. These releases can be consumed using Swift Package Manager, CocoaPods or manual integration into your project.
 
